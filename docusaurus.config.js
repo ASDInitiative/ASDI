@@ -103,7 +103,7 @@ const config = {
           routeBasePath: '/docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/arisac/docusaurus-boilerplate/edit/main/',
+          editUrl: 'https://github.com/ASDInitiative/ASDI/tree/master/docs',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
@@ -115,7 +115,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/arisac/docusaurus-boilerplate/edit/main/blog/',
+            'https://github.com/ASDInitiative/ASDI/tree/master/blog',
           blogSidebarCount: 10,
         },
         theme: {
