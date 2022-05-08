@@ -103,7 +103,7 @@ const config = {
           routeBasePath: '/docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/ASDInitiative/ASDI/tree/master/docs',
+          editUrl: 'https://github.com/ASDInitiative/ASDI/tree/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
@@ -115,7 +115,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/ASDInitiative/ASDI/tree/master/blog',
+            'https://github.com/ASDInitiative/ASDI/tree/master/',
           blogSidebarCount: 10,
         },
         theme: {
@@ -167,26 +167,18 @@ const config = {
                 label: 'Membership',
                 to: '/membership',
               },
-              {
-                label: 'Learn Software Dev',
-                to: '#',
-              },
+              // {
+              //   label: 'Learn Software Dev',
+              //   to: '#',
+              // },
             ],
           },
           {
             title: 'Specification',
             items: [
               {
-                label: 'Requirements',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Architecture',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Docs',
+                href: '/docs/start',
               },
             ],
           },
